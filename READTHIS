@@ -1,0 +1,37 @@
+# Patient Care Coordination Template (Excel Project)
+
+This Excel project simulates a simplified patient-care coordination system for a healthcare center.  
+It demonstrates how Excel can be used to create lightweight relational data structures — linking patient biodata with active treatment plans.
+
+---
+
+## 🏥 Project Overview
+The workbook includes two connected sheets:
+1. **Patient Biodata** – Base table containing patient demographics and contact details.
+2. **Patient Care Plan** – Linked sheet for diagnoses, treatment plans, and provider assignments.
+
+The sheets communicate through **data validation** and **XLOOKUP** functions to ensure all patient information stays consistent and accurate.
+
+---
+
+## ⚙️ Features
+- Dropdown selection for **Patient IDs** drawn from the biodata sheet  
+- **Automatic population** of First and Last Names using XLOOKUP  
+- Columns for **Diagnosis**, **Treatment Plan**, **Start/End Dates**, and **Responsible Care Provider**  
+- Easily expandable structure for additional fields such as follow-up dates, notes, or digital signatures  
+
+---
+
+## 🧠 Skills Demonstrated
+**Excel | Data Validation | XLOOKUP | Relational Data Design | Healthcare Workflow Modeling**
+
+---
+
+## 💡 Why It Matters
+In many healthcare settings, especially small clinics, Excel remains the first layer of digital data management.  
+This project showcases how Excel can be used to enforce **data integrity, reduce manual entry errors, and simulate EHR-like logic** before migrating to full database systems.
+
+---
+
+**Created by:** [Shonda Holloway](https://www.linkedin.com/sholloway22)  
+**Repository:** [Patient Care Coordination Template](https://github.com/sholloway22/patient-care-coordination-template)
